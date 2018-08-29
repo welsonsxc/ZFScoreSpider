@@ -13,8 +13,8 @@ def littlecat():
 	website=r"http://qjjwgl.hznu.edu.cn/webserver/"
 	#userxh=input("输入你的学号:")
 	#password=input("输入你的密码:")
-	userxh='2017830402024'
-	password='SCjiaowu287486.'
+	userxh='不告诉你'
+	password='不告诉你'
 	class Scraper(HTMLParser):
 		def handle_starttag(self,tag,attrs):
 			if tag=='img':#验证码
