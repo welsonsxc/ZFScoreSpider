@@ -11,7 +11,7 @@ import pymysql
 
 host1='localhost'
 user1='root'
-password1='Scsql2018!'
+password1=''
 db1='qjjw'
 
 # 查询表
@@ -259,11 +259,11 @@ def SqlDelete(dbtable_name,userxh):
 		db.close()
 
 if __name__=="__main__":
-	#SqlDelete('stu_score','2017830402024')
-	#Insertpw('2017830402024','SCjiaowu287486.')
-	#Insertinfo('2017830402024','盛超')
-	#Insertscore('table.txt','2017830402024')
-	#SqlSearchscore('2017830402024','2017-2018','2')
+	#SqlDelete('stu_score','')
+	#Insertpw('','')
+	#Insertinfo('','')
+	#Insertscore('table.txt','')
+	#SqlSearchscore('','','')
 	#print(SqlSelect('stu_info'))
 	Sqlprint('stu_pw')
 	Sqlprint('stu_info')
